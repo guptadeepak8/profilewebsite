@@ -6,15 +6,13 @@
     --off-white:#E5E7EB;
 }
 
-
-
-
 hr{
     margin:2rem 0rem;
 }
 body{
     font-family: 'Roboto', sans-serif;
     margin:0px;
+    
 }
 p{
     font-weight:500;
