@@ -38,15 +38,20 @@ p{
 
 .nav-pills{
     display: flex;
-    
+    gap: 40px;
 }
 .container-center{
     margin:auto;
     max-width:600px;
 }
 
+.nav-link{
+    text-decoration: none;
+    padding:0.5rem;
+     color:white; 
+}
+
 .links{
-    margin-right: 44px;
     text-decoration: none;
     padding:0.5rem;
      color:white; 
@@ -136,15 +141,16 @@ footer{
 ul{
     list-style-type: none;
 }
+.social-links{
+    display: flex;
+    justify-content: center;
+}
 .blogs-preview{
     border-bottom: 1px solid #fafafa;
     padding:2rem;
     max-width:600px;
     margin : 40px auto;
     padding:20px;
-
-    
-
   }
   .blogs-preview:hover{
     box-shadow:1px 3px 5px rgba(0,0,0,1);
@@ -158,9 +164,11 @@ ul{
   }
 
   @media all and (max-width:480px){
-      .list-item-inline{
-          display:block;
-      }
+     
+
+     .nav-pills{
+        gap: 5px;
+     }
       .hero .hero-img{
         max-width: 300px;
         margin:auto;
